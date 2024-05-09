@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="160dp"
+        android:layout_height="300dp"
+        android:src="@drawable/nohelp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Maaf, tidak ada yang bisa saya bantu"
+        android:textColor="#595959"
+        android:textSize="40sp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#00A39F9F"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/back_icon"
+        android:id="@+id/back_btn"/>
+
+</LinearLayout>
